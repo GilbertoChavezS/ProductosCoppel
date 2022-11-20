@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="coppelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="C_Producto" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Sku" Type="varchar" Mode="In" />
+    <Parameter Name="Articulo" Type="varchar" Mode="In" />
+    <Parameter Name="Marca" Type="varchar" Mode="In" />
+    <Parameter Name="Modelo" Type="varchar" Mode="In" />
+    <Parameter Name="Departamento" Type="int" Mode="In" />
+    <Parameter Name="Clase" Type="int" Mode="In" />
+    <Parameter Name="Familia" Type="int" Mode="In" />
+    <Parameter Name="F_alta" Type="datetime" Mode="In" />
+    <Parameter Name="Stock" Type="int" Mode="In" />
+    <Parameter Name="Cantidad" Type="int" Mode="In" />
+    <Parameter Name="Descontinuado" Type="bit" Mode="In" />
+    <Parameter Name="F_baja" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="R_Clases" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="R_Departamentos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="R_Familias" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="coppelModelStoreContainer" />
+</Schema>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="coppelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="coppelEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="R_Clases" ReturnType="Collection(coppelModel.R_Clases_Result)" />
+    <FunctionImport Name="R_Departamentos" ReturnType="Collection(coppelModel.R_Departamentos_Result)" />
+    <FunctionImport Name="R_Familias" ReturnType="Collection(coppelModel.R_Familias_Result)" />
+    <FunctionImport Name="C_Producto">
+      <Parameter Name="Sku" Mode="In" Type="String" />
+      <Parameter Name="Articulo" Mode="In" Type="String" />
+      <Parameter Name="Marca" Mode="In" Type="String" />
+      <Parameter Name="Modelo" Mode="In" Type="String" />
+      <Parameter Name="Departamento" Mode="In" Type="Int32" />
+      <Parameter Name="Clase" Mode="In" Type="Int32" />
+      <Parameter Name="Familia" Mode="In" Type="Int32" />
+      <Parameter Name="F_alta" Mode="In" Type="DateTime" />
+      <Parameter Name="Stock" Mode="In" Type="Int32" />
+      <Parameter Name="Cantidad" Mode="In" Type="Int32" />
+      <Parameter Name="Descontinuado" Mode="In" Type="Boolean" />
+      <Parameter Name="F_baja" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="R_Clases_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="R_Departamentos_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="R_Familias_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>

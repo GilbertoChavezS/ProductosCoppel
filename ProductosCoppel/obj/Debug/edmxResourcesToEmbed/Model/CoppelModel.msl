@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="coppelModelStoreContainer" CdmEntityContainer="coppelEntities">
+    <FunctionImportMapping FunctionImportName="R_Clases" FunctionName="coppelModel.Store.R_Clases">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="coppelModel.R_Clases_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="R_Departamentos" FunctionName="coppelModel.Store.R_Departamentos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="coppelModel.R_Departamentos_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="R_Familias" FunctionName="coppelModel.Store.R_Familias">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="coppelModel.R_Familias_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="C_Producto" FunctionName="coppelModel.Store.C_Producto" />
+  </EntityContainerMapping>
+</Mapping>

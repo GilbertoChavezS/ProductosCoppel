@@ -1,0 +1,16 @@
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\ProductosCoppel.exe.config
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\ProductosCoppel.exe
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\ProductosCoppel.pdb
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\EntityFramework.dll
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\EntityFramework.xml
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.csproj.AssemblyReference.cache
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.csproj.SuggestedBindingRedirects.cache
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.Form1.resources
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.Properties.Resources.resources
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.csproj.GenerateResource.cache
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.csproj.CoreCompileInputs.cache
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.csproj.CopyComplete
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.exe
+C:\Users\gilbe\OneDrive\Escritorio\Coppel\abcc\abcc2\ProductosCoppel\ProductosCoppel\obj\Debug\ProductosCoppel.pdb
